@@ -66,7 +66,7 @@ ECS Configuration:
 Creates an ECS cluster.
 Defines an ECS task definition for a Fargate task. The task uses the nginxdemos/hello image from Docker Hub to run an Nginx server.
 
-https://github.com/nixvarghese01/ecs-stateless-nginx/blob/dev/aws_infrastructure.png
+
 Creates an ECS service that deploys the defined task in the public subnets. The service uses the previously defined security group and is associated with the ALB's target group. This means that any traffic coming to the ALB will be forwarded to one of the running ECS tasks.
 
 
@@ -76,3 +76,6 @@ The ALB receives the traffic and forwards it to one of the ECS tasks in the targ
 The ECS task, which runs an Nginx container, handles the traffic.
 The response from the ECS task flows back through the ALB to the user.
 This setup is typical for deploying web applications in AWS using ECS Fargate, where you want to ensure high availability by deploying across multiple availability zones and distributing traffic using an ALB.
+
+
+https://github.com/nixvarghese01/ecs-stateless-nginx/blob/dev/aws_infrastructure.png
