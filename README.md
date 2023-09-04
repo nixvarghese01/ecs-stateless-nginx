@@ -78,4 +78,4 @@ The response from the ECS task flows back through the ALB to the user.
 This setup is typical for deploying web applications in AWS using ECS Fargate, where you want to ensure high availability by deploying across multiple availability zones and distributing traffic using an ALB.
 
 
-https://github.com/nixvarghese01/ecs-stateless-nginx/blob/dev/aws_infrastructure.png
+![Example Image](https://github.com/nixvarghese01/ecs-stateless-nginx/blob/dev/aws_infrastructure.png)
