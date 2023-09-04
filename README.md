@@ -29,7 +29,7 @@ https://diagrams.mingrammer.com/docs/getting-started/installation
 2.  It uses Graphviz to render the diagram, so you need to install Graphviz to use diagrams
     https://graphviz.gitlab.io/download/ 
     eg: sudo apt install graphviz
-3.  # using pip (pip3)
+3.  using pip (pip3)
     $ pip install diagrams
 
 4.  create a architecture_diagram.py file and use python to create diagram 
