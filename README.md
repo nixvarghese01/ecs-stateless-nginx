@@ -65,6 +65,8 @@ Attaches the built-in AWS policy AmazonECSTaskExecutionRolePolicy to the ecs_exe
 ECS Configuration:
 Creates an ECS cluster.
 Defines an ECS task definition for a Fargate task. The task uses the nginxdemos/hello image from Docker Hub to run an Nginx server.
+
+https://github.com/nixvarghese01/ecs-stateless-nginx/blob/dev/aws_infrastructure.png
 Creates an ECS service that deploys the defined task in the public subnets. The service uses the previously defined security group and is associated with the ALB's target group. This means that any traffic coming to the ALB will be forwarded to one of the running ECS tasks.
 
 
