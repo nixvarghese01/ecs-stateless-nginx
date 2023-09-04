@@ -1,4 +1,4 @@
-Terraform code is designed to deploy AWS ECS with fargate ro run stateless application
+Terraform code is designed to deploy AWS ECS with fargate to run stateless application
 
 Prerequisites 
 AWS Account with AWS CLI installed in system or any cloud instance connected to aws account
